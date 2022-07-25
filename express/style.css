@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'custfont';
+	src: url('LeagueGothic-Regular.otf') format("opentype");
+}
+
+* { 
+	box-sizing: border-box;
+	<!-- order: 2px solid red; --> 
+}
+
+.something {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 63px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: red;
+	font-weight: 700;
+	background-color: black;
+	margin: 4px; 
+	text-align: center;
+}
+
+
+.paragraph {
+	color: white;
+	font-size:20px;
+	text-align: center;
+}
+
+.warning {
+	color: white;
+	text-align: center;
+	font-size:50px;
+	font-weight:500;
+	margin: 4px;
+	font-family: 'custfont';
+
+}
+
+
+.list{
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	font-weight: 350;
+	margin:19px;
+}
+
+.list-start{
+	margin:35px;
+}
+
+
+span{
+	display:inline-block;
+}
+
+img{
+	display: inline-block;
+	height: 5%;
+	width: 5%;
+	transform: rotate(-45deg);
+}
+
+body {
+	background-color:black;
+}
