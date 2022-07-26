@@ -5,7 +5,9 @@
 
 * { 
 	box-sizing: border-box;
-	<!-- order: 2px solid red; --> 
+	border: 2px solid red; 
+        margin-left: 10%;
+	margin-right: 10%;	
 }
 
 .something {
@@ -57,8 +59,8 @@ span{
 
 img{
 	display: inline-block;
-	height: 5%;
-	width: 5%;
+	height: 8%;
+	width: 8%;
 	transform: rotate(-45deg);
 }
 
